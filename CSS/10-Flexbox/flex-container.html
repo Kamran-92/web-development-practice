@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-container</title>
+</head>
+<style>
+    div{
+        display: flex;
+    }
+ #container{
+    background-color: bisque;
+    height: 400px;
+    width: 500px;
+    border: 3px solid black;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: start;
+    
+ }
+ #box1{
+     background-color: rgb(205, 255, 196);
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+     position: relative;
+    top: 50px;
+    right:50px;
+     flex-direction: row;
+     display: inline-block;
+ }
+ #box2{
+      background-color: rgb(196, 230, 255);
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+     position: relative;
+    top: 50px;
+     flex-direction: row;
+     right:50px;
+     display: inline-block;
+ }
+ #box3{
+      background-color: rgb(251, 196, 255);
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+     position: relative;
+    top: 50px;
+    flex-direction: row;
+    right:50px;
+    display: inline-block;
+ }
+</style>
+<body>
+    <div id="container"> flex container
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div id="box3">box3</div>
+    </div>
+</body>
+</html>

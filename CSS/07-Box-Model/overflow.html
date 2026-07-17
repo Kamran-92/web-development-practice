@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+</head>
+<style>
+#auto{
+    height: 100px;
+    width: 80px;
+         border: 2px solid black;
+          overflow: auto;
+}
+#hidden{
+    height: 150px;
+    width: 150px;
+         border: 2px solid black;
+          overflow: hidden;
+}
+#visible{
+    height: 130px;
+    width: 130px;
+         border: 2px solid black;
+          overflow: visible;
+}
+#scroll{
+    height: 130px;
+    width: 130px;
+         border: 2px solid black;
+          overflow: scroll;
+}
+</style>
+<body>
+    <h1>Overflow</h1>
+    <div id="auto">
+        <p>adds scrollbars only when necessary</p>
+    </div>
+     <div id="hidden">
+        extract content is cut off and hidden </div>
+      <div id="visible">
+        Default, Extra content is visible outside the box
+      </div>
+       <div id="scroll">
+        always adds scrollbars
+       </div>
+</body>
+</html>

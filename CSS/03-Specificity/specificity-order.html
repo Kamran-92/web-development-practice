@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity-order</title>
+</head>
+
+<style>
+#id{
+    color: aquamarine;
+}
+</style>
+<body style="background-color: bisque">
+    <h1 id="h1" 
+    style="color: aqua;">Specificity-Order</h1>
+
+<p>CSS specificity is the algorithm browsers use to decide which style rule applies when multiple CSS rules target the exact same HTML element.
+
+It calculates a mathematical "weight" based on the selector types used, prioritizing inline styles highest, followed by IDs, then classes/pseudo-classes, and finally base elements.
+
+Whenever there is a conflict, the rule with the highest specificity score wins and is applied, overriding any styling from weaker selectors.
+Now i will different methonds</p>
+
+<ol>
+    <li> inline</li>
+    <li>IDs</li>
+    <li>Classes, Attributes, & Pseudo-classes</li>
+    <li>Elements & Pseudo-elements</li>
+</ol>
+
+<p>(The Override): Adding !important at the end of a CSS property value (e.g., color: red !important;) completely bypasses</p>
+</body>
+</html>
